@@ -1,0 +1,26 @@
+{
+  "name": "redis-lua-dependency-manager",
+  "version": "1.0.0",
+  "description": "Gulp plugin that manages and inject dependency for redis lua script, so that the lua script can be written as composable modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/redis-lua-dependency-manager.git"
+  },
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandanand84/redis-lua-dependency-manager/issues"
+  },
+  "homepage": "https://github.com/anandanand84/redis-lua-dependency-manager#readme",
+  "dependencies": {
+    "dependency-graph": "^0.5.0",
+    "gulp": "^3.9.1",
+    "jison": "^0.4.17",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.3"
+  }
+}
